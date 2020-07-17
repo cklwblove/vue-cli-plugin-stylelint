@@ -11,7 +11,6 @@ const chalk = require('chalk');
 const stylelint = require('stylelint');
 const CodeframeFormatter = require('stylelint-codeframe-formatter');
 
-
 // helpers ==========================
 function camelize(str) {
   return str.replace(/-(\w)/g, (_, c) => (
@@ -52,7 +51,7 @@ module.exports = async function lint(api, args = {}, pluginOptions = {}) {
 
   const cwd = api.resolve('.');
 
-  const files = args._ && args._.length ? args._ : ['src/**/*.{vue,htm,html,css,sss,less,scss}'];
+  const files = args._ && args._.length ? args._ : ['src/**/*.{vue,htm,html,css,sss,less,scss,sass,stylus}'];
   if (args['no-fix']) {
     args.fix = false;
     delete args['no-fix'];

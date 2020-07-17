@@ -28,20 +28,11 @@ const questions = [
     default: 0,
     when: ({ overwriteConfig }) => (overwriteConfig ? overwriteConfig !== 'abort' : true),
     choices: [
-      {
-        name: 'Standard',
-        value: 'stylelint-config-standard',
-        short: 'Standard',
-      }, {
-        name: 'Primer',
-        value: 'stylelint-config-primer',
-        short: 'Primer',
-      },
       new inquirer.Separator(),
       {
-        name: 'Kanbaru',
-        value: '@ascendancyy/stylelint-config-kanbaru',
-        short: 'Kanbaru',
+        name: 'winner-fed',
+        value: '@winner-fed/stylelint-config-win',
+        short: 'winner-fed',
       },
     ],
   }, {

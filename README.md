@@ -1,4 +1,4 @@
-# @ascendancyy/vue-cli-plugin-stylelint
+# @winner-fed/vue-cli-plugin-stylelint
 
 > stylelint plugin for vue-cli
 

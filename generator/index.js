@@ -41,9 +41,9 @@ module.exports = (api, options = {}) => {
         Object.assign(pkg.devDependencies, {
           'stylelint-config-primer': '^2.2.5',
         });
-      } else if (config === '@ascendancyy/stylelint-config-kanbaru') {
+      } else if (config === '@winner-fed/stylelint-config-win') {
         Object.assign(pkg.devDependencies, {
-          '@ascendancyy/stylelint-config-kanbaru': '^1.0.1',
+          '@winner-fed/stylelint-config-win': '^0.1.0',
         });
       }
     }
